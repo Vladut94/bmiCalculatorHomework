@@ -6,7 +6,7 @@ let lName = document.querySelector("#lName");
 
 btn.addEventListener("click", modalOpen);
 closeBtn.addEventListener("click", closeBtnClose);
-window.addEventListener("click", ousideClick);
+window.addEventListener("click", outsideClick);
 
 btn.addEventListener("click", function() {
     let weight = parseInt(document.getElementById("weight-input").value);
@@ -40,7 +40,7 @@ function closeBtnClose() {
     modal.style.display = "none";
 }
 
-function ousideClick(e){
+function outsideClick(e){
     if(e.target == modal){
         modal.style.display = "none";
     }
