@@ -1,48 +1,72 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family:"Ubuntu Light","Ubuntu","Ubuntu Mono","Segoe Print","Segoe UI";
+    font-size: 1.5em;
     line-height: 1.5;
-}
-
-.btn {
-    background: coral;
+    text-align: center;
+    background-color: rgb(34, 31, 31);
+    color:white;
+  }
+  
+  .btn {
+    background: rgb(177, 175, 174);
     padding: 1em 2em;
-    color: #fff;
-    border: 0;
-}
-
-.btn:hover {
-    background: #333;
-}
-
-.modal {
+    color: rgb(83, 79, 79);
+    border-radius: 20px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .btn:hover {
+    background: rgb(150, 150, 150);
+    font-size:20px;
+  }
+  
+  .modal {
     display: none;
     position: fixed;
     z-index: 1;
     left: 0;
-    top: 0;
+    top: 10%;
     height: 100%;
     width: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.5);
-}
-
-.modal-content {
+  }
+  
+  .modal-content {
     background-color: #f4f4f4;
     margin: 30% auto;
     padding: 20px;
-    width: 70%;
-    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 5px 7px 20px rgba(0,0,0,0.17);
-}
-
-.closeBtn {
-    color: #ccc;
+    width: 50%;
+    height:100px;
+    box-shadow: 0 5px 8px 0 rgba(252, 252, 252, 0.2),0 5px 7px 20px rgba(0,0,0,0.17);
+    border-radius: 30px;
+  }
+  
+  .closeBtn {
+    color: rgb(0, 0, 0);
     float: right;
-    font-size: 35px;    
-}
-
-.closeBtn:hover, .closeBtn:focus{
+    font-size: 35px;   
+   
+  }
+  
+  .closeBtn:hover, .closeBtn:focus{
     color: #000;
     text-decoration: none;
     cursor: pointer;
-}
+  }
+  
+  input {
+    border:0; 
+    padding:5px; 
+    font-size:1em; 
+    font-family:"Ubuntu Light","Ubuntu","Ubuntu Mono","Segoe Print","Segoe UI";
+    color:rgb(0, 0, 0); 
+    border:solid 1px #ccc; 
+    margin:0 0 20px; 
+    width:400px; 
+    box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;    
+    text-align: center;
+  }
